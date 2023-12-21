@@ -43,3 +43,6 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 Show total revenue in year 2020 in Chennai
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
+
+
+![Screenshot (329)](https://github.com/NikhilA8606/Sales-Insight/assets/115739037/784647cb-ae2f-4bbb-92a8-eb1e64b4d070)
